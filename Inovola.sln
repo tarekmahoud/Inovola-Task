@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inovola.Presentation", "Inovola\Inovola.Presentation.csproj", "{6910A635-50A5-4FA8-B510-B8FD3848C231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inovola.Domain", "Inovola.Domain\Inovola.Domain.csproj", "{BAC06873-BDC2-4C80-9128-AE163AE5D3CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inovola.Core", "Inovola.Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inovola.Application", "Inovola.Application\Inovola.Application.csproj", "{FC0B099D-EE0C-4B47-939F-B7C673FCC9D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inovola.Infra", "Inovola.Infra", "{D8417F78-2EE1-4B38-95F4-900829CA4515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inovola.Infrastructure", "Inovola.Infrastructure\Inovola.Infrastructure.csproj", "{44B59B2E-CB50-4D07-AE8E-708948FB0B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inovola.Test", "Inovola.Test\Inovola.Test.csproj", "{04DDDCF2-05B6-4ED3-AC86-EA8BB551B1F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6910A635-50A5-4FA8-B510-B8FD3848C231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6910A635-50A5-4FA8-B510-B8FD3848C231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6910A635-50A5-4FA8-B510-B8FD3848C231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6910A635-50A5-4FA8-B510-B8FD3848C231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC06873-BDC2-4C80-9128-AE163AE5D3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC06873-BDC2-4C80-9128-AE163AE5D3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC06873-BDC2-4C80-9128-AE163AE5D3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC06873-BDC2-4C80-9128-AE163AE5D3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0B099D-EE0C-4B47-939F-B7C673FCC9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0B099D-EE0C-4B47-939F-B7C673FCC9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0B099D-EE0C-4B47-939F-B7C673FCC9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0B099D-EE0C-4B47-939F-B7C673FCC9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B59B2E-CB50-4D07-AE8E-708948FB0B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B59B2E-CB50-4D07-AE8E-708948FB0B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B59B2E-CB50-4D07-AE8E-708948FB0B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B59B2E-CB50-4D07-AE8E-708948FB0B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DDDCF2-05B6-4ED3-AC86-EA8BB551B1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DDDCF2-05B6-4ED3-AC86-EA8BB551B1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DDDCF2-05B6-4ED3-AC86-EA8BB551B1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DDDCF2-05B6-4ED3-AC86-EA8BB551B1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAC06873-BDC2-4C80-9128-AE163AE5D3CE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FC0B099D-EE0C-4B47-939F-B7C673FCC9D7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{44B59B2E-CB50-4D07-AE8E-708948FB0B60} = {D8417F78-2EE1-4B38-95F4-900829CA4515}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE72821A-A3AF-40B7-A8BE-AE9FFC4152AF}
+	EndGlobalSection
+EndGlobal
