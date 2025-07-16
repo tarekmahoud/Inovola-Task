@@ -21,9 +21,6 @@ namespace Inovola.Application.Features.Auth.Commands.RegisterUser
             .EmailAddress()
             .WithMessage("يجب ادخال بريد الكترونى صحيح");
 
-            RuleFor(_ => _.Mobile)
-            .NotEmpty()
-            .WithMessage("يجب إدخال رقم الهاتف");
         }
     }
 }

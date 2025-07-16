@@ -34,7 +34,6 @@ public class RegisterUserHandler : IRequestHandler<RegisterUserCommand, string>
             UserName = request.UserName,
             Email = request.Email,
             Password = request.Password,
-            Mobile = request.Mobile
         };
 
         var cacheEntryOptions = new MemoryCacheEntryOptions

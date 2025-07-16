@@ -98,7 +98,6 @@ namespace Inovola.Test
                 UserName = "tarek",
                 Email = "tarek@inovola.com.sa",
                 Password = "Admin@123",
-                Mobile = "0542145854"
             };
 
             return await _mediator.Send(user);

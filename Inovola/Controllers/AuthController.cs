@@ -3,7 +3,7 @@ using Inovola.Application.Features.Auth.Queries.Login;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Inovola.Presentation.Controllers;
+namespace  Inovola.Presentation.Controllers;
 
 [Route("api/v1/[controller]")]
 [ApiController]
